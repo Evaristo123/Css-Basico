@@ -20,23 +20,30 @@ header{
 header .logo{
 	color: #fff;
 	font-size: 30px;
-	line-height: 200px;
+	line-height: 80px;
 	float: left;
 
 }
 header nav{
 	float: right;
-	line-height: 200px;
+	line-height: 80px;
 	
 }
+
 header nav a{
+	display: inline-block;
 	font-size: 1em;
 	text-decoration: none;
 	color: #fff;
+	padding: 1em 1em;
+	line-height: normal;
+}
+.logo img{
+	width: 70%;
+	margin-top: 10px;
 }
 
 
 
 
 
-}
