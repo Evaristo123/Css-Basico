@@ -26,7 +26,7 @@ header .logo{
 }
 header nav{
 	float: right;
-	line-height: 80px;
+	line-height:80px;
 	
 }
 
@@ -35,15 +35,46 @@ header nav a{
 	font-size: 1em;
 	text-decoration: none;
 	color: #fff;
-	padding: 1em 1em;
+	padding: 0.5em 0.8em;
 	line-height: normal;
+	font-weight: bold;
+	-webkit-transition: all ease 2s;
+	transition: all ease 2s;
+}
+header nav a:hover{
+	background: #45B39D;
+	border-radius: 1em;
 }
 .logo img{
 	width: 70%;
 	margin-top: 10px;
 }
+.header2{
+	position: fixed;
+	height: 80px;
+}
+.header2 .logo{
+	line-height: 80px;
 
+}
 
+.contenido p{
+	margin-top: 5.5em;
 
+}
 
-
+@media screen and(max-width: 644px)) {
+	header .logo,
+	header nav{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+	}
+	.header2{
+		height: auto;
+	}
+	.header2 .logo
+	.header2. nav{
+		line-height: 80px;
+	}
+}
