@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #fff;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #2C3E50;
+	margin-bottom: 20px;
+}
+.waper{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+}
